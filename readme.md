@@ -1,1 +1,5 @@
-# So in this advanced session we will learn about
+# So in this advanced Python session we will learn about:
+: Lists
+: Tuples
+: Dictionaries
+: Sets
