@@ -35,3 +35,8 @@ if "banana" in fruits:
     print("Banana is present in the fruits list.")  # Output: Banana is present in the fruits list.
 else:
     print("Banana is not present in the fruits list.")
+
+if "lemon" in fruits:
+    print("Lemon is present in the fruits list.")
+else:
+    print("Lemon is not present in the fruits list.")  # Output: Lemon is not present in the fruits list.
