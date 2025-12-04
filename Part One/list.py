@@ -19,3 +19,5 @@ item = fruits[2]
 print(item) # Output: mango
 
 # Negative indexing to acces items from the end of the list
+print("Last Negative Index from back:", fruits[-1]) # Output: orange
+print("Last Second Negative value from the back:", fruits[-2]) # Output: mango
