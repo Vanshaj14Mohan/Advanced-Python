@@ -26,3 +26,6 @@ print("--------------------------------------")
 #if you want to iterate through the list 
 for fruit in fruits:
     print(fruit)
+
+# checking the length of the list
+print("Length of fruits list:", len(fruits))  # Output: 4
