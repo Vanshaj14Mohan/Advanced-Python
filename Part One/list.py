@@ -29,3 +29,9 @@ for fruit in fruits:
 
 # checking the length of the list
 print("Length of fruits list:", len(fruits))  # Output: 4
+
+#Checking if an item exits in the list or not
+if "banana" in fruits:
+    print("Banana is present in the fruits list.")  # Output: Banana is present in the fruits list.
+else:
+    print("Banana is not present in the fruits list.")
