@@ -1,0 +1,21 @@
+# List is a built-in data type in Python that represents an ordered collection of items.
+# Lists are mutable, meaning their contents can be changed after they are created.
+
+fruits = ["apple", "banana", "mango", "orange"]
+print(fruits)  # Output: ['apple', 'banana', 'mango', 'orange']
+
+#Creating an empty list using list() function
+empty_list  = list()
+print(empty_list)  # Output: []
+
+# A list can contain items of different data types and it also allows duplicate values.
+mixed_list = [1, "hello", 3.14, True, "hello"]
+print(mixed_list)  # Output: [1, 'hello', 3.14, True]
+
+#Accesing list items using indexing
+print(fruits[0]) # Output: apple
+
+item = fruits[2]
+print(item) # Output: mango
+
+# Negative indexing to acces items from the end of the list
