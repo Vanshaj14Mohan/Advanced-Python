@@ -56,3 +56,4 @@ print("After inserting kiwi at index 1:", fruits)  # Output: ['apple', 'kiwi', '
 removed_item = fruits.pop()
 print("After popping last item:", fruits)  # Output: ['apple', 'kiwi', 'banana', 'mango', 'orange']
 print("Removed item:", removed_item)  # Output: grape
+
