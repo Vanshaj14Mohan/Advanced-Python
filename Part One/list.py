@@ -47,3 +47,12 @@ print("--------------------------------------")
 # Append items to the list using append() method
 fruits.append("grape")
 print("After appending grape:", fruits)  # Output: ['apple', 'banana', 'mango', 'orange', 'grape']
+
+# Now if we want to insert an item at a specific position we can use insert() method
+fruits.insert(1, "kiwi")
+print("After inserting kiwi at index 1:", fruits)  # Output: ['apple', 'kiwi', 'banana', 'mango', 'orange', 'grape']
+
+# Now if we want to remove last item from the list we can use pop() method
+removed_item = fruits.pop()
+print("After popping last item:", fruits)  # Output: ['apple', 'kiwi', 'banana', 'mango', 'orange']
+print("Removed item:", removed_item)  # Output: grape
