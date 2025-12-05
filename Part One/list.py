@@ -43,3 +43,7 @@ else:
     print("Lemon is not present in the fruits list.")  # Output: Lemon is not present in the fruits list.
 
 print("--------------------------------------")
+
+# Append items to the list using append() method
+fruits.append("grape")
+print("After appending grape:", fruits)  # Output: ['apple', 'banana', 'mango', 'orange', 'grape']
