@@ -60,3 +60,11 @@ print("Removed item:", removed_item)  # Output: grape
 # We can also remove an specific item at a specific index using remove() method
 fruits.remove("mango")
 print("After removing mango:", fruits)  # Output: ['apple', 'kiwi', 'banana', 'orange']
+
+# We can also reverse the list using reverse() method
+fruits.reverse()
+print("After reversing the list:", fruits)  # Output: ['orange', 'banana', 'kiwi', 'apple']
+
+# And if we want to clear the entire list we can use clear() method
+fruits.clear()
+print("After clearing the list:", fruits)  # Output: []
