@@ -57,3 +57,6 @@ removed_item = fruits.pop()
 print("After popping last item:", fruits)  # Output: ['apple', 'kiwi', 'banana', 'mango', 'orange']
 print("Removed item:", removed_item)  # Output: grape
 
+# We can also remove an specific item at a specific index using remove() method
+fruits.remove("mango")
+print("After removing mango:", fruits)  # Output: ['apple', 'kiwi', 'banana', 'orange']
