@@ -68,3 +68,9 @@ print("After reversing the list:", fruits)  # Output: ['orange', 'banana', 'kiwi
 # And if we want to clear the entire list we can use clear() method
 fruits.clear()
 print("After clearing the list:", fruits)  # Output: []
+
+# And we we are using numbers we can even sort the list using sort() method
+numbers = [-1, -5, -3, 2, 4, 8, 10, 7]
+print("Original numbers list:", numbers) # Output: [-1, -5, -3, 2, 4, 8, 10, 7]
+numbers.sort()
+print("Sorted numbers list:", numbers ) # Output: [-5, -3, -1, 2, 4, 7, 8, 10]
