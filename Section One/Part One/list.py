@@ -146,4 +146,10 @@ print("------------------------------------------------")
 squares = [x**2 for x in range(1, 6)]
 print("List of squares using List Comprehesnion:", squares)  # Output: [1, 4, 9, 16, 25]
 
+# Creating odd and even numbers using list comprehension from 1 to 10
+odd_numbers = [x for x in range(1,11) if x % 2 != 0]
+even_numbers = [x for x in range(1,11) if x%2 ==0]
+print("Odd Numbers from 1 to 10:", odd_numbers)  # Output: [1, 3, 5, 7, 9]
+print("Even Numbers from 1 to 10:", even_numbers)  # Output: [2, 4, 6, 8, 10]
+
 
