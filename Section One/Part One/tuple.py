@@ -22,3 +22,8 @@ print(data[3]) # Output: 3.14
 print(data[-1]) # Output: True
 print(data[-3]) # Output: Max
 
+print("--------------------------------------")
+# We can easily iterate through a tuple using a for loop
+for item in data:
+    print(item) # Output: 1 Hello Max 3.14 True
+
