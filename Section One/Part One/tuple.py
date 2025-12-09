@@ -9,5 +9,16 @@ print(data)  # Output: (1, 'Hello', 'Max', 3.14, True)
 
 print(type(data))  # Output: <class 'tuple'>
 
-tuple = ("max")
-print(type(tuple))  # Output: <class 'str'> coz this is not a tuple, it's a string as there is no comma
+info = ("max")
+print(type(info))  # Output: <class 'str'> coz this is not a tuple, it's a string as there is no comma
+
+# We can also use the built-in tuple() function to create a tuple
+my_tuple = tuple(["Max", 92, 3.14, False])
+print(my_tuple)  # Output: ('Max', 92, 3.14, False)
+
+# Accessing tuple items using indexing
+print(data[0])  # Output: 1
+print(data[3]) # Output: 3.14
+print(data[-1]) # Output: True
+print(data[-3]) # Output: Max
+
