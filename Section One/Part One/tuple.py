@@ -27,3 +27,6 @@ print("--------------------------------------")
 for item in data:
     print(item) # Output: 1 Hello Max 3.14 True
 
+# Checking the length of the tuple
+print("Length of data tuple:", len(data))  # Output: 5
+
