@@ -6,3 +6,8 @@
 # Creating a tuple
 data = (1, "Hello", "Max", 3.14, True)
 print(data)  # Output: (1, 'Hello', 'Max', 3.14, True)
+
+print(type(data))  # Output: <class 'tuple'>
+
+tuple = ("max")
+print(type(tuple))  # Output: <class 'str'> coz this is not a tuple, it's a string as there is no comma
