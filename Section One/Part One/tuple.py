@@ -38,3 +38,6 @@ else:
 
 # Trying to change an item in the tuple will raise an error
 # data[1] = "World"  This will raise a TypeError: 'tuple' object does not support item assignment
+# However, we can convert the tuple to a list, modify it, and convert it back to a tuple
+
+
