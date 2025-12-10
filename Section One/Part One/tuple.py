@@ -30,3 +30,11 @@ for item in data:
 # Checking the length of the tuple
 print("Length of data tuple:", len(data))  # Output: 5
 
+# checking if an item exists in the tuple
+if "Max" in data:
+    print("Max is present in the tuple")  # Output: Max is present in the tuple
+else:
+    print("Max is not present in the tuple")
+
+# Trying to change an item in the tuple will raise an error
+# data[1] = "World"  This will raise a TypeError: 'tuple' object does not support item assignment
