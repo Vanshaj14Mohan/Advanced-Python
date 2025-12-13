@@ -52,3 +52,10 @@ print("Count of 2 in numbers tuple:", count_of_twos)  # Output: 3
 index_of_2 = numbers.index(2) # Output: 1
 print("Index of first occurrence of 2 in numbers tuple:", index_of_2)  # Output: 1
 
+# Now we can easily convert a tuple to a list and vice versa
+print(type(data))  # Output: <class 'tuple'>
+data_list = list(data)
+print(type(data_list))  # Output: <class 'list'>
+data_tuple = tuple(data_list)
+print(type(data_tuple))  # Output: <class 'tuple'>
+
