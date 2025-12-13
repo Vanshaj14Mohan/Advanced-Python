@@ -43,4 +43,10 @@ else:
 # temp_list = list(data)
 # print(type(temp_list))  Output: <class 'list'>
 
+# And to count the number of occurences of an item in a tuple, we can use the count() method.
+print("--------------------------------------")
+numbers = (1, 2, 3, 2, 4, 2, 5)
+
+count_of_twos = numbers.count(2)
+print("Count of 2 in numbers tuple:", count_of_twos)  # Output: 3
 
