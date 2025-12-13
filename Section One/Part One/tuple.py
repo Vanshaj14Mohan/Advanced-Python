@@ -58,4 +58,11 @@ data_list = list(data)
 print(type(data_list))  # Output: <class 'list'>
 data_tuple = tuple(data_list)
 print(type(data_tuple))  # Output: <class 'tuple'>
+print("--------------------------------------")
+
+# Slicing a tuple
+print(data) # Output: (1, 'Hello', 'Max', 3.14, True)
+sliced_tuple = data[1:4]
+print(sliced_tuple)  # Output: ('Hello', 'Max', 3.14)
+
 
