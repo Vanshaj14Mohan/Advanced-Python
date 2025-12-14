@@ -83,6 +83,8 @@ print(step_slice_two)
 step_slice_three = a[1::2] # Output: ('b', 'd', 'f')
 print(step_slice_three)
 
+step_slice_four = a[::-2] # Output: ('f', 'd', 'b')
+print(step_slice_four)
 
 
 
