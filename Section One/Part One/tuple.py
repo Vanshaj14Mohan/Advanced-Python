@@ -75,6 +75,14 @@ neg_slic_three = a[:-3] # Output: ('a', 'b', 'c')
 print(neg_slic_two)
 print(neg_slic_three)
 
+# Can also use step argument in slicing
+step_slice = a[::1] # Output: ('a', 'b', 'c', 'd', 'e', 'f')
+print(step_slice)
+step_slice_two = a[::2] # Output: ('a', 'c', 'e')
+print(step_slice_two)
+step_slice_three = a[1::2] # Output: ('b', 'd', 'f')
+print(step_slice_three)
+
 
 
 
