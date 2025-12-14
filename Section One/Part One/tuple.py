@@ -65,4 +65,16 @@ print(data) # Output: (1, 'Hello', 'Max', 3.14, True)
 sliced_tuple = data[1:4]
 print(sliced_tuple)  # Output: ('Hello', 'Max', 3.14)
 
+# Negative slicing
+a = ("a", "b", "c", "d", "e", "f")
+neg_slic_one = a[-4:-1] # Output: ('c', 'd', 'e')
+print(neg_slic_one) 
+
+neg_slic_two = a[-3:] # Output: ('d', 'e', 'f')
+neg_slic_three = a[:-3] # Output: ('a', 'b', 'c')
+print(neg_slic_two)
+print(neg_slic_three)
+
+
+
 
