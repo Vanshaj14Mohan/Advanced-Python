@@ -85,6 +85,9 @@ print(step_slice_three)
 
 step_slice_four = a[::-2] # Output: ('f', 'd', 'b')
 print(step_slice_four)
+print("--------------------------------------")
 
+# Unpacking a tuple
+# We can unpack a tuple into individual variables
 
 
