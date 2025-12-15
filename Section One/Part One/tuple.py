@@ -112,6 +112,8 @@ print("--------------------------------------")
 import sys
 my_list  = [1, 2, 3, 4, 5]
 my_tuple = (1, 2, 3, 4, 5)
-print("List Size:", sys.getsizeof(my_list))   # Output: List Size: 104
-print("Tuple Size:", sys.getsizeof(my_tuple)) # Output: Tuple Size: 80
+print("List Size:", sys.getsizeof(my_list), "bytes")   # Output: List Size: 104
+print("Tuple Size:", sys.getsizeof(my_tuple), "bytes") # Output: Tuple Size: 80
+
+# This shows that tuples use less memory compared to lists with the same elements
 
