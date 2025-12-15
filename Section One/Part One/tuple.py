@@ -105,4 +105,13 @@ name, age, *other_info = person_info
 print(name)        # Output: Max
 print(age)         # Output: 29
 print(other_info)  # Output: ['Munich', 'Germany', 'Engineer']
+print("--------------------------------------")
+
+# Comparing with a List
+# Tuples are generally faster than lists due to their immutability
+import sys
+my_list  = [1, 2, 3, 4, 5]
+my_tuple = (1, 2, 3, 4, 5)
+print("List Size:", sys.getsizeof(my_list))   # Output: List Size: 104
+print("Tuple Size:", sys.getsizeof(my_tuple)) # Output: Tuple Size: 80
 
