@@ -89,5 +89,20 @@ print("--------------------------------------")
 
 # Unpacking a tuple
 # We can unpack a tuple into individual variables
+# Unpacking simply means assigning the values of a tuple to a different variable
 
+person = ("Max", 29, "Munich")
+
+name, age, city = person
+print(name)  # Output: Max
+print(age)   # Output: 29
+print(city)  # Output: Munich
+
+# If the number of variables is less than the number of items in the tuple, 
+# we can use the * operator to assign the remaining items to a list
+person_info = ("Max", 29, "Munich", "Germany", "Engineer")
+name, age, *other_info = person_info
+print(name)        # Output: Max
+print(age)         # Output: 29
+print(other_info)  # Output: ['Munich', 'Germany', 'Engineer']
 
