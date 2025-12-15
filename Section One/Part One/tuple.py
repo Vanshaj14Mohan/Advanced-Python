@@ -116,4 +116,14 @@ print("List Size:", sys.getsizeof(my_list), "bytes")   # Output: List Size: 104
 print("Tuple Size:", sys.getsizeof(my_tuple), "bytes") # Output: Tuple Size: 80
 
 # This shows that tuples use less memory compared to lists with the same elements
+# Tuples are often used for data that should not change throughout the program, 
+# such as coordinates, RGB values, or fixed collections of items.
+
+import timeit
+list_time = timeit.timeit(stmt="[1, 2, 3, 4, 5]", number=1000000)
+tuple_time = timeit.timeit(stmt="(1, 2, 3, 4, 5)", number=1000000)
+print("List Creation Time:", list_time)   # Output: List Creation Time: <some_value>
+print("Tuple Creation Time:", tuple_time) # Output: Tuple Creation Time: <some_value>
+# This shows that tuple creation is generally faster than list creation. 
+# However, the actual times may vary based on the system and environment.
 
