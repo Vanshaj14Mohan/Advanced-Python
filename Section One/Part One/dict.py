@@ -1,0 +1,1 @@
+# A dictionary is a collection datatype which is unordered and mutable. It consists of a collection of key-value pairs
