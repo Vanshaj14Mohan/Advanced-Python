@@ -126,4 +126,5 @@ print("List Creation Time:", list_time)   # Output: List Creation Time: <some_va
 print("Tuple Creation Time:", tuple_time) # Output: Tuple Creation Time: <some_value>
 # This shows that tuple creation is generally faster than list creation. 
 # However, the actual times may vary based on the system and environment.
+print("----------------------------------------------------")
 
