@@ -39,8 +39,7 @@ else:
 # Trying to change an item in the tuple will raise an error
 # data[1] = "World"  This will raise a TypeError: 'tuple' object does not support item assignment
 # However, we can convert the tuple to a list, modify it, and convert it back to a tuple
-# eg:
-# temp_list = list(data)
+# eg: temp_list = list(data)
 # print(type(temp_list))  Output: <class 'list'>
 
 # And to count the number of occurences of an item in a tuple, we can use the count() method.
@@ -92,7 +91,6 @@ print("--------------------------------------")
 # Unpacking simply means assigning the values of a tuple to a different variable
 
 person = ("Max", 29, "Munich")
-
 name, age, city = person
 print(name)  # Output: Max
 print(age)   # Output: 29
