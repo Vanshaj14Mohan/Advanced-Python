@@ -10,4 +10,5 @@ print(sample_dict)
 print(type(sample_dict)) # Dict
 
 #Accesing Values in a Dictionary
-print("For accesing names: ", my_dict["name"]) #john
+print("For accesing names:", my_dict["name"]) #John
+print("For accesing names:", sample_dict["name"]) #Adam
