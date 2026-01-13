@@ -12,3 +12,12 @@ print(type(sample_dict)) # Dict
 #Accesing Values in a Dictionary
 print("For accesing names:", my_dict["name"]) #John
 print("For accesing names:", sample_dict["name"]) #Adam
+
+# A dictionary is mutable, we can change it's associated values by using their keys
+my_dict["age"] = 29 #new value for age key
+print("Update value of age key", my_dict["age"]) # 29
+#or we can also change it's keys
+my_dict["email"] = "adam@1234gmail.com"
+print("Updated dictionary", my_dict)
+
+#Updat
