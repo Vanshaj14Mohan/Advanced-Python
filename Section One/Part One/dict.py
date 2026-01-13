@@ -19,5 +19,15 @@ print("Update value of age key", my_dict["age"]) # 29
 #or we can also change it's keys
 my_dict["email"] = "adam@1234gmail.com"
 print("Updated dictionary", my_dict)
+#And it will overwrite the value if the key already exists 
+print("----------------------------------------------------")
 
-#Updat
+#Now to delete a key value pair, we use del keyword here
+del my_dict["city"]
+print("After deleting city key: ", my_dict)
+
+del my_dict["email"]
+print("After deleting email key: ", my_dict)
+
+# Can also use pop() method in order to remove specific key-value pair
+
