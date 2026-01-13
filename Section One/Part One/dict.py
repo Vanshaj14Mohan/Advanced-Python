@@ -30,4 +30,25 @@ del my_dict["email"]
 print("After deleting email key: ", my_dict)
 
 # Can also use pop() method in order to remove specific key-value pair
+my_dict.pop("gender") #removing gender key
+print("Afterdeleting gender key using pop(): ", my_dict)
+
+new_dict  = {"name": "John", "age": 27, "city": "New York", "gender": "Male", "email": "john@1234gmail.com"}
+#now to verify if a key is present in the dictonary
+# There are two ways to do this:
+# Using "in" keyword
+
+#Checking if age is present or not
+if "age" in new_dict:
+    print("Age is present")
+else:
+    print("Not present")
+
+#2: Using get() method
+if new_dict.get("city"):
+    print("City is present")
+else:
+    print("City is not present")
+
+
 
