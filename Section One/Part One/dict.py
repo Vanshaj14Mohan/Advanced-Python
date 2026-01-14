@@ -107,5 +107,8 @@ dict2 = {"city": "California", "email": "jack@1234gmail.com"}
 dict1.update(dict2) #Now merging dict2 into dict
 print("Merging dict2 into dict1:", dict1)
 
+# Now possible key types in a dictionary are:
+# Can be strings, numbers, or tuples (which are immutable)
+
 
 
