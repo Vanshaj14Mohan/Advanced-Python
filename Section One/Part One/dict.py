@@ -50,5 +50,17 @@ if new_dict.get("city"):
 else:
     print("City is not present")
 
+# Or we can use try and except block to handle error if key is not present
+try:
+    print(new_dict["country"]) #country key is not present
+except:
+    print("Country key is not present")
+# Will show not present message instead of giving an error
+
+try:
+    print("Name is:", new_dict["name"]) #name key is there
+except:
+    print("Name key is not present")
+# Will give the value of name key
 
 
