@@ -62,5 +62,16 @@ try:
 except:
     print("Name key is not present")
 # Will give the value of name key
+print("----------------------------------------------------")
+
+# Now if we want to iterate through the dictionary we can use for loop
+print("For Values in the dictionary:")
+for key in new_dict:
+    print("Keys are:", key)
+
+for key in new_dict:
+    print("Values are:", new_dict[key])
+
+
 
 
