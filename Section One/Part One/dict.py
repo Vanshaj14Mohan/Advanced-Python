@@ -87,6 +87,25 @@ print("Using .values() method:")
 for value in new_dict.values():
     print("Values are:", value)
 
+# Copying a dictionary
+sample_dict = {"name": "Matthew", "age": 30, "city": "New Jersey", "gender": "Male"}
+copy_dict = sample_dict.copy() # using copy() method
+
+print("Original Dictionary:", sample_dict)
+print("Copied Dictionary:", copy_dict)
+
+# But if we change the copied dictionary it will not affect the original dictionary
+# It would affect only if we use assignment operator
+copy_dict["email"] = "matthew@1234gmail.com"
+print("Original Dictionary:", sample_dict)
+print("Copied Dictionary:", copy_dict)
+
+# Now to merge two dictionaries for that we can use update() method
+dict1 = {"name": "Jack", "age": 27, "gender": "Male"}
+dict2 = {"city": "California", "email": "jack@1234gmail.com"}
+
+dict1.update(dict2) #Now merging dict2 into dict
+print("Merging dict2 into dict1:", dict1)
 
 
 
