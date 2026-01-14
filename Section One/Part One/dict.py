@@ -34,6 +34,7 @@ my_dict.pop("gender") #removing gender key
 print("Afterdeleting gender key using pop(): ", my_dict)
 
 new_dict  = {"name": "John", "age": 27, "city": "New York", "gender": "Male", "email": "john@1234gmail.com"}
+print("----------------------------------------------------")
 #now to verify if a key is present in the dictonary
 # There are two ways to do this:
 # Using "in" keyword
@@ -75,6 +76,16 @@ for key in new_dict:
 print("For Values in the dictionary")
 for key in new_dict:
     print("Values are:", new_dict[key])
+
+# We can also use .keys() and .values() methods to get keys and values respectively
+print("Using .keys() method:")
+
+for key in new_dict.keys():
+    print("Keys are:", key)
+
+print("Using .values() method:")
+for value in new_dict.values():
+    print("Values are:", value)
 
 
 
