@@ -109,6 +109,20 @@ print("Merging dict2 into dict1:", dict1)
 
 # Now possible key types in a dictionary are:
 # Can be strings, numbers, or tuples (which are immutable)
+#eg:
+ran_dict = {1: "One", 2: "Two"}
+str_dict = {"Country": "UK", "Capital": "London"}
+tuple_dict = {(1,2): "Point-A", (3,4): "Point-B"}
+print("The one with number keys", ran_dict)
+print("The one with string keys", str_dict)
+print("The one with tuple keys", tuple_dict)
+
+# Accessing values now
+print(ran_dict[1]) #One
+print(str_dict["Country"]) #UK
+print(tuple_dict[(1,2)]) # Point-A
+
+
 
 
 
