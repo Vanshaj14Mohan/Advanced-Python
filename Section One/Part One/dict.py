@@ -65,10 +65,14 @@ except:
 print("----------------------------------------------------")
 
 # Now if we want to iterate through the dictionary we can use for loop
+for key in new_dict:
+    print(f"Key: {key}, Value: {new_dict[key]}")
+
 print("For Values in the dictionary:")
 for key in new_dict:
     print("Keys are:", key)
 
+print("For Values in the dictionary")
 for key in new_dict:
     print("Values are:", new_dict[key])
 
