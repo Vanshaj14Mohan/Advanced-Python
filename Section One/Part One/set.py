@@ -70,9 +70,29 @@ print(even | prime) # Output => {2, 3, 5, 6, 7, 8, 10, 11}
 print(odd.intersection(prime)) #Output => {3, 5, 7}
 print(even & prime) # Output => {2}
 
-# And for difference we can use difference() method or "-" operator
+# Now for difference we can use difference() method or "-" operator
+# In difference we see all the elements which are present in first set but not in second set.
 print(even.difference(prime)) # Output => {8, 10, 4, 6}
 print(even - odd) # Output = > {2, 4, 6, 8, 10}
 print(prime - even) # Output => {11, 3, 5, 7}
+
+# And for symmetric difference we use symmetric_difference() method or "^" operator
+# In symmetric difference we can get all the elements which are in either of the sets but not in both sets.
+print(odd.symmetric_difference(prime)) # Output => {1, 2, 9, 11}
+print(even ^ prime) # Output => {3, 4, 5, 6, 7, 8, 10, 11}
+print(even ^ odd) # Output => {1, 2, 3, 4, 5, 6, ,7 8, 9, 10}
+print("---------------------------------------------------")
+
+# And to update a set with numerous elements we can use update() method
+set1 = {1, 2, 3}
+set2 = {4, 5, 6}
+print(set1.update(set2)) # Would return none as it updates set1 in place
+print(set1) # Output => {1, 2, 3, 4, 5, 6}
+# And interection_update(), difference_update(), symmetric_update() methods which we can aslo use to update the set with required operations:
+# They work same as above methods but they just update the set in place.
+#NOTE: We can use update() method with any iterable like list, tuple or even strings. 
+
+# Now checking subset, superset and disjoint methods
+
 
 
