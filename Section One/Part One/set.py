@@ -92,7 +92,66 @@ print(set1) # Output => {1, 2, 3, 4, 5, 6}
 # They work same as above methods but they just update the set in place.
 #NOTE: We can use update() method with any iterable like list, tuple or even strings. 
 
+#NOTE: The same copy logic applies here just like in list:
+# Using copy() method and assigning a variable both will have different impact
+# Now if we edit the copied set it will not affect the original set,
+# but if we just assign the original set to a new variable it will create a reference to the original set.
+copyset1 = {"a", "b", "c"}
+
+copyset2 = copyset1
+copyset2.add("d")
+print(copyset1)
+print(copyset2) # Both will have {"a", "b", "c", "e"}
+
+# But when we use copy() method it won't effect the original set
+copyseta = {1, 2, 3, 4} 
+copysetb = copyseta.copy()
+
+copysetb.add(5)
+print(copyseta) #{1, 2, 3, 4}
+print(copysetb) #{1, 2, 3, 4, 5}
+print("--------------------------------------------------------")
+
 # Now checking subset, superset and disjoint methods
+# A subset is basically a collection of elements derived from a larger set or sequence, 
+# where every element in the smaller collection is also present in the original one.
+# Or in simple every element in the subset must exist in the larger set:
+# Denoted with the subset() method or with the "<=" operator
+pack1 = {"apple", "mango", "oranges", "kiwi"}
+pack2 = {"guava", "strawberry", "banana", "apple"}
+pack3 = {"apple", "oranges", "mango", "kiwi",}
+print(pack2.issubset(pack1)) # Would give false
+print(pack3.issubset(pack1)) # Would give true
+
+# Now for superset: basically a set that contains all the elements of another set (the subset), and possibly more
+# Can be denoted using superset() method or using ">=" or ">" operator
+num1 = {1,2,3,4,5}
+num2 = {2,4}
+num3 = {2,4, 5,1}
+num4 = {1,5}
+print(num1.issuperset(num2)) # Would give true [as contains 2, 4 from num2]
+print(num3.issuperset(num2)) # Would give true 
+print(num3 >= num4) # Would give true
+print(num4 > num3) # Would give false [as num4 doesn't have 2,4 from num3]
+
+# Now for disjoint: in-short two sets are disjoint if they have no elements in common
+# Basically their intersection is an empty set
+# Denoted using isdisjoint() method or 
+set_a = {"a", "b", "c"}
+set_b = {"d", "e", "f"}
+set_c = {"a", "b", "h"}
+
+print(set_a.isdisjoint(set_b)) # Would give true (no common elements)
+print(set_b.isdisjoint(set_c)) # Would give true
+print(set_a.isdisjoint(set_c)) # Would give false ( "a", "b" are common here)
+print(set_c.isdisjoint(set_b)) # Would give true
+
+# Especial one: frozenset, it's also a collection data type and it's just an immutable version of a normal set
+a = frozenset[1, 2, 3, 4]
+#a.add(5) # this would gove error as frozensets are immutable, so no addition, removing or updation can happen
+print(a)
+
+
 
 
 
