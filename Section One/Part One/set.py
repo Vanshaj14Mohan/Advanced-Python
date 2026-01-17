@@ -42,4 +42,37 @@ demo_set.clear()
 print(demo_set) #Output => set()
 print("---------------------------------------------------")
 
+# Now iterating through a set, we can use a for loop
+for i in myset:
+    print(i)
+
+#Checking if an element is present in our set or not, using "in" keyword
+if 1 in myset:
+    print("1 is present in myset")
+else:
+    print("Not present")
+
+if 6 in myset:
+    print("6 is present")
+else:
+    print("6 is not present")
+
+# Now some operations on sets that are Union, Intersection, Difference and symmetric difference
+even = {2, 4, 6, 8, 10}
+odd = {1, 3, 5, 7, 9}
+prime = { 2, 3, 5, 7, 11}
+
+# Now for union, in this we can use union() method or "|" operator
+print(even.union(odd)) # Output => {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+print(even | prime) # Output => {2, 3, 5, 6, 7, 8, 10, 11}
+
+# Now for intersection, in this we can use intersection or "&" operator
+print(odd.intersection(prime)) #Output => {3, 5, 7}
+print(even & prime) # Output => {2}
+
+# And for difference we can use difference() method or "-" operator
+print(even.difference(prime)) # Output => {8, 10, 4, 6}
+print(even - odd) # Output = > {2, 4, 6, 8, 10}
+print(prime - even) # Output => {11, 3, 5, 7}
+
 
