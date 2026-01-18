@@ -10,3 +10,10 @@ case = "This\'s is a strings part"
 demo_case = "This's a strings part"
 print(demo_case) # Output => This's a string part
 print(case) # Output => This's a string part
+
+# We can even use triple quotes generally used for multi-line strings, could also be used for documentation inside a code
+# Now adding \ in multi-line means that string should continue in another line and should not jump to new line.
+temp = """So this is basically the part where I'll be discussing
+and in-depth part regarding strings
+and how it's used in Python"""
+print(temp)
