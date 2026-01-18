@@ -19,3 +19,6 @@ and how it's used in Python"""
 print(temp)
 
 # Accesing characters or substrings in a string: It's quite similar to how we acces in lists:
+#ie using indexing here:
+print(case1[0]) # H
+print(case1[1]) # e
