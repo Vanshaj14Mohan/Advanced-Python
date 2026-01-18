@@ -17,3 +17,5 @@ temp = """So this is basically the part where I'll be discussing
 and in-depth part regarding strings
 and how it's used in Python"""
 print(temp)
+
+# Accesing characters or substrings in a string: It's quite similar to how we acces in lists:
