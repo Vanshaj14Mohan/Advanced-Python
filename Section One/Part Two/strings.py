@@ -22,3 +22,46 @@ print(temp)
 #ie using indexing here:
 print(case1[0]) # H
 print(case1[1]) # e
+# Now accesing from last elements
+print(case1[-1]) # s
+print(case1[-2]) # y
+
+#NOTE: We can't acces and change a character in strings
+# case1[0] = "h" # Now this would give error
+# print(case1[0])
+print("-------------------------------------------------------------")
+
+#Slicing in strings
+demo1 = "An advanced tutorial based on python"
+part1 = demo1[1:5] # Start and stop index
+print(part1) # Output => n ad
+part2 = demo1[:7] # ffrom start to 7th index
+print(part2) # Output => An adva
+part3 = demo1[:] #from start to end
+print(part3) # Output => An advanced tutorial based on python
+part4 = demo1[4:] # From 4th index to the end
+print(part4) # Output => dvanced tutorial based on python
+
+part5 = demo1[::1] # print the whole string
+print(part5)
+part6 = demo1[::2] # Every second element from the string
+print(part6) # Output => A dacdttra ae npto
+part7 = demo1[::3] # Every third element from the string
+print(part7) # Output => Aaaetoabeoph
+
+#Reversing a string
+rev_str = demo1[::-1]
+print(rev_str) # Output => nohtyp no desab lairotut decnavda nA
+
+rev_str2 = demo1[::-2]
+print(rev_str2)
+
+# Concatenation in strings : We do this using + operator
+str1 = "A good day"
+str2 = "to go out"
+res = str1 + " " + str2
+print(res)
+
+#Iterating over elements in strings: we can use for in loop
+for i in res:
+    print(i)
