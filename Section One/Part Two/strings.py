@@ -66,3 +66,18 @@ print(res)
 for i in res:
     print(i)
 
+# Now to check whether a character or substring is inside our string we can use if in statement for it
+sample = "Advanced Python"
+if "A" in sample:
+    print("Character exist")
+else:
+    print("Character does not exist")
+
+# We can also print that particular character too
+x = "d"
+if x in sample:
+    print(x, "Character exist")
+else:
+    print(x, "Character does not exist")
+
+
