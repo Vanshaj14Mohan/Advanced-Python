@@ -80,4 +80,9 @@ if x in sample:
 else:
     print(x, "Character does not exist")
 
+#can also check for substring as well
+if "vanced" in sample:
+    print("Substring exist")
+else: 
+    print("Substring does not exist")
 
