@@ -65,3 +65,4 @@ print(res)
 #Iterating over elements in strings: we can use for in loop
 for i in res:
     print(i)
+
