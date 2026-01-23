@@ -86,3 +86,7 @@ if "vanced" in sample:
 else: 
     print("Substring does not exist")
 
+# Now some more useful methods that could be used with strings
+# To avoid unnecessary blank spaces in a string
+test = "    Python   "
+print(test)
