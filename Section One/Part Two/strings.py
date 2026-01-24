@@ -99,3 +99,12 @@ data = "Python"
 data2 = "PROGRAMMING LANGUAGE"
 print(data.upper()) # PYTHON
 print(data2.lower()) # programming language
+
+# 3: Checking if a string/ sub-string starts and endswith with a specific character
+print(data.startswith("P")) # True
+print(data.startswith("H")) # False
+
+print(data.endswith("n")) # True
+print(data.endswith("r")) # False
+
+
