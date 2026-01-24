@@ -87,9 +87,15 @@ else:
     print("Substring does not exist")
 
 # Now some more useful methods that could be used with strings
-# To avoid unnecessary white spaces in a string
+# 1: To avoid unnecessary white spaces in a string
 test = "    Python   "
 # here we can use strip() method to avoid unnecessary white spaces
 print(test) #     Python
 print(test.strip()) # Python
 print(test) # Tho it won't change the original string as they are immutable
+
+# 2: Now converting characters to Uppercase and Lowercase
+data = "Python"
+data2 = "PROGRAMMING LANGUAGE"
+print(data.upper()) # PYTHON
+print(data2.lower()) # programming language
