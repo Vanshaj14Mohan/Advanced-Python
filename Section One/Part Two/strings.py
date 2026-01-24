@@ -87,6 +87,9 @@ else:
     print("Substring does not exist")
 
 # Now some more useful methods that could be used with strings
-# To avoid unnecessary blank spaces in a string
+# To avoid unnecessary white spaces in a string
 test = "    Python   "
-print(test)
+# here we can use strip() method to avoid unnecessary white spaces
+print(test) #     Python
+print(test.strip()) # Python
+print(test) # Tho it won't change the original string as they are immutable
