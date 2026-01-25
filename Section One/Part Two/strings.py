@@ -124,6 +124,7 @@ print(data3.count("g")) # 4 times
 # 6: We can also replace characters or substring inside our string
 print(data3.replace("programming", "Advanced programming")) # Advanced programming languages
 # It does not change the original string: And if we give it a value that does not exist it would just print original string
+print("-------------------------------------------------------------")
 
 # Now about lists and strings
 task = "I'm learning advanced python language" # now if we want to convert it into a list, and put each word of string as an element in list
