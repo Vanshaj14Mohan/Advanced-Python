@@ -107,4 +107,19 @@ print(data.startswith("H")) # False
 print(data.endswith("n")) # True
 print(data.endswith("r")) # False
 
+# 4: Now we can find the index of character or a substring
+print(data.find("h")) # Index 3
+print(data.find("y")) # Index 1
+print(data.find("on")) # Index 4
+print(data.find("abc")) # Would print -1 as it does'nt exist
+
+# 5: We can also count number of characters or substrings in a string
+data3 = "programming languages"
+print(data3.count("a")) # 3 as a appears three times in that string
+print(data3.count("m")) # 2 times
+print(data3.count("g")) # 4 times
+
+
+
+
 
