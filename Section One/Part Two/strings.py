@@ -86,6 +86,8 @@ if "vanced" in sample:
 else: 
     print("Substring does not exist")
 
+print("-------------------------------------------------------------")
+
 # Now some more useful methods that could be used with strings
 # 1: To avoid unnecessary white spaces in a string
 test = "    Python   "
@@ -119,7 +121,19 @@ print(data3.count("a")) # 3 as a appears three times in that string
 print(data3.count("m")) # 2 times
 print(data3.count("g")) # 4 times
 
+# 6: We can also replace characters or substring inside our string
+print(data3.replace("programming", "Advanced programming")) # Advanced programming languages
+# It does not change the original string: And if we give it a value that does not exist it would just print original string
 
+# Now about lists and strings
+task = "I'm learning advanced python language" # now if we want to convert it into a list, and put each word of string as an element in list
+task2 = "I'm,learning,advanced,python,language"
+list_task = task.split()
+list_task2 = task2.split(",") # Without spaces 
+print(list_task)
+print(list_task2)
+# Note using split() method without any argument it splits the string wherever there is whitespace,
+# and Converts the string into a list of words
 
 
 
