@@ -160,6 +160,7 @@ my_str = "".join(list1)
 print(my_str) # aaaaa
 stop = timer()
 print("Using Join method one", stop-start)
+print("---------------------------------------------")
 
 
 
