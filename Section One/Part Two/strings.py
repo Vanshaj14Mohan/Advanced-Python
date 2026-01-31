@@ -140,6 +140,26 @@ print(list_task2)
 string_conv = "".join(task) #.join method can we quite useful to join the elements of a list back to string
 print(string_conv)
 
+list1 = ["a"] * 5
+print(list1) # ['a', 'a', 'a', 'a', 'a']
+
+#Tough approach 
+# Now checking how much time it takes for both to operations to get the code work done
+from timeit import default_timer as timer
+start = timer()
+my_str2 = ""
+for i in list1:
+    my_str2 += i
+stop = timer()    
+print(my_str2) # aaaaa
+print("For loop one", stop-start)
+
+# Easy aaproach
+start = timer()
+my_str = "".join(list1)
+print(my_str) # aaaaa
+stop = timer()
+print("Using Join method one", stop-start)
 
 
 
