@@ -136,5 +136,11 @@ print(list_task2)
 # Note using split() method without any argument it splits the string wherever there is whitespace,
 # and Converts the string into a list of words
 
+# And if you have list and you want to convert it into a string
+string_conv = "".join(task) #.join method can we quite useful to join the elements of a list back to string
+print(string_conv)
+
+
+
 
 
