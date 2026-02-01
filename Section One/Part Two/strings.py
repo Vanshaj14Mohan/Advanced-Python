@@ -175,7 +175,9 @@ print("modified items are %.2f" % items) #24.90
 
 # Using .format() method
 print("Using format method")
-
+print("and his name is {}".format(name)) # and his name is John
+print("his age is {}".format(age)) # his age is 28
+print("items list modified {:.2f}".format(items)) # items list modified 24.90
 
 
 
