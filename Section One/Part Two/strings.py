@@ -166,8 +166,15 @@ print("---------------------------------------------")
 # using % operator or using .format() method, or using F-Strings
 name = "John"
 age = 28
+items = 24.898
 print("the name is %s" % name) # %s tells the interpreter that there is a placeholder with a string here and then we will it with our variable
 print("the age is %d" % age) # %d as of integer value
+print("items are %f" % items) # %f used for float values
+# And we can also specify how many digits we want
+print("modified items are %.2f" % items) #24.90
+
+# Using .format() method
+print("Using format method")
 
 
 
