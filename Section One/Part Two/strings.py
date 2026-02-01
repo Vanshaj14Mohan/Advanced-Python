@@ -174,10 +174,14 @@ print("items are %f" % items) # %f used for float values
 print("modified items are %.2f" % items) #24.90
 
 # Using .format() method
+items2 = 10
 print("Using format method")
 print("and his name is {}".format(name)) # and his name is John
 print("his age is {}".format(age)) # his age is 28
-print("items list modified {:.2f}".format(items)) # items list modified 24.90
+print("items list modified {:.2f} and {}".format(items, items2)) # items list modified 24.90 and 10
 
+
+# Now using F-Strings
+print(f"Hi my name is {name}, and my age is {age}") # Hi my name is John, and my age is 28
 
 
