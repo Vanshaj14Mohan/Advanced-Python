@@ -183,5 +183,7 @@ print("items list modified {:.2f} and {}".format(items, items2)) # items list mo
 
 # Now using F-Strings
 print(f"Hi my name is {name}, and my age is {age}") # Hi my name is John, and my age is 28
-
+item_price = 20
+item_count = 5
+print(f"Total amont is {item_price * item_count}") #Total amont is 100
 
