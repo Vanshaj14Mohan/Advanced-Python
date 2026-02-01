@@ -162,6 +162,13 @@ stop = timer()
 print("Using Join method one", stop-start)
 print("---------------------------------------------")
 
+# Now formatted strings, 3 ways to format a string
+# using % operator or using .format() method, or using F-Strings
+name = "John"
+age = 28
+print("the name is %s" % name) # %s tells the interpreter that there is a placeholder with a string here and then we will it with our variable
+print("the age is %d" % age) # %d as of integer value
+
 
 
 
