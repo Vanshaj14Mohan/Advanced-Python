@@ -8,5 +8,9 @@
 # 5: deque
 
 # Starting with Counter:
-# Counter is basically a subclass of dict used to count the number of occurences of elements in a collection:
+# Counter is basically a subclass of dictionay used to count the number of occurences of elements in a collection:
+# It displays the count of each elements in th form of dictionary where keys are the elements and values are the count of those elements:
 from collections import Counter # Need to import Counter from collections module
+test = "Collections"
+counter = Counter(test) # Creating a counter object
+print(counter) # Output: Counter({'o': 2, 'l': 2, 'C': 1, 'e': 1, 'c': 1, 't': 1, 'i': 1, 'n': 1, 's': 1})
