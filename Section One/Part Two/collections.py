@@ -24,4 +24,5 @@ print(count.keys()) # Output: dict_keys(['a', 'b', 'c', 'd', 'e', 'g', 'h'])
 print(count.values()) # Output: dict_values([2, 2, 1, 4, 1, 1, 1])
 print(count.elements()) # Returns an iterator showing all elements and their : <itertools.chain object at 0x000001F1D8F788E0>
 # We can convert this this iterator to list to access all the elements:
+print(list(count.elements())) #Output: ['a', 'a', 'b', 'b', 'c', 'd', 'd', 'd', 'd', 'e', 'g', 'h']
 print("-------------------------------------------------------")
