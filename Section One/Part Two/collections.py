@@ -21,3 +21,4 @@ print(count.items()) # Output: dict_items([('a', 2), ('b', 2), ('c', 1), ('d', 4
 print(count.most_common(2)) # 2 represent the nu,ber of most common elements we want to see: [('d', 4), ('a', 2)]
 print(count.keys()) # Output: dict_keys(['a', 'b', 'c', 'd', 'e', 'g', 'h'])
 print(count.values()) # Output: dict_values([2, 2, 1, 4, 1, 1, 1])
+print("-------------------------------------------------------")
