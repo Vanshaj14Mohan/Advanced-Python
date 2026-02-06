@@ -18,7 +18,10 @@ print(counter) # Output: Counter({'o': 2, 'l': 2, 'C': 1, 'e': 1, 'c': 1, 't': 1
 test_two = "abcdabdddegh"
 count = Counter(test_two)
 print(count.items()) # Output: dict_items([('a', 2), ('b', 2), ('c', 1), ('d', 4), ('e', 1), ('g', 1), ('h', 1)])
-print(count.most_common(2)) # 2 represent the nu,ber of most common elements we want to see: [('d', 4), ('a', 2)]
+print(count.most_common(2)) # 2 represent the number of most common elements we want to see: [('d', 4), ('a', 2)]
+print(count.most_common(1)[0][0]) #[0][0] used to get most common element only in d:
 print(count.keys()) # Output: dict_keys(['a', 'b', 'c', 'd', 'e', 'g', 'h'])
 print(count.values()) # Output: dict_values([2, 2, 1, 4, 1, 1, 1])
+print(count.elements()) # Returns an iterator showing all elements and their : <itertools.chain object at 0x000001F1D8F788E0>
+# We can convert this this iterator to list to access all the elements:
 print("-------------------------------------------------------")
