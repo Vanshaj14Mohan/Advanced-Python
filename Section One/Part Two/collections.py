@@ -80,3 +80,5 @@ ord_dict.pop("a") # A would be removed from ord_dict:
 print(ord_dict) # OrderedDict([('d', 4), ('b', 2), ('c', 3)])
 print("-------------------------------------------------------")
 
+# 4: defaultdict:
+# A subclass of dictionary that provides a default value for the key that does not exist in the dictionary:
