@@ -84,5 +84,12 @@ print("-------------------------------------------------------")
 # A subclass of dictionary that provides a default value for the key that does not exist in the dictionary:
 # It is kinda similar to usual dictionary container, only difference is that it will have a default value if the key is not set yet:
 from collections import defaultdict
-
-
+d = defaultdict(int) # we gave int as default type 
+d["a"] = 1
+d["b"] = 2
+d["c"] = 3
+print(d)# defaultdict(<class 'int'>, {'a': 1, 'b': 2, 'c': 3})
+# Printing their keys
+print(d.keys()) # dict_keys(['a', 'b', 'c'])
+print(d["a"], d["b"], d["c"]) # 1 2 3
+print(d["e"]) # It would print a default value of 0 for key "e" as e is not defined in the dictionary & we set int as default
