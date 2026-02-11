@@ -84,7 +84,7 @@ print("-------------------------------------------------------")
 # A subclass of dictionary that provides a default value for the key that does not exist in the dictionary:
 # It is kinda similar to usual dictionary container, only difference is that it will have a default value if the key is not set yet:
 from collections import defaultdict
-d = defaultdict(int) # we gave int as default type 
+d = defaultdict(int) # we gave int as default type, we can change it's type to float, list, set etc.
 d["a"] = 1
 d["b"] = 2
 d["c"] = 3
@@ -93,3 +93,20 @@ print(d)# defaultdict(<class 'int'>, {'a': 1, 'b': 2, 'c': 3})
 print(d.keys()) # dict_keys(['a', 'b', 'c'])
 print(d["a"], d["b"], d["c"]) # 1 2 3
 print(d["e"]) # It would print a default value of 0 for key "e" as e is not defined in the dictionary & we set int as default
+
+# 4: deque:
+# Aslo know as double ended queue, it allows user to add or remove elements from both ends of the queue:
+from collections import deque
+deq = deque() # an empty deque
+# We can add elements to the right end using append() method:
+deq.append(1)
+deq.append(2)
+deq.append(3)
+print(deq) #deque([1, 2, 3])
+
+# We can also add elements to the left end using left() method:
+deq.appendleft(0)
+deq.appendleft(-1)
+print(deq) #deque([-1, 0, 1, 2, 3])
+
+
