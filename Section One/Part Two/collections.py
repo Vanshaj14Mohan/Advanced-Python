@@ -94,7 +94,7 @@ print(d.keys()) # dict_keys(['a', 'b', 'c'])
 print(d["a"], d["b"], d["c"]) # 1 2 3
 print(d["e"]) # It would print a default value of 0 for key "e" as e is not defined in the dictionary & we set int as default
 
-# 4: deque:
+# 5: deque:
 # Aslo know as double ended queue, it allows user to add or remove elements from both ends of the queue:
 from collections import deque
 deq = deque() # an empty deque
@@ -102,11 +102,37 @@ deq = deque() # an empty deque
 deq.append(1)
 deq.append(2)
 deq.append(3)
-print(deq) #deque([1, 2, 3])
+print(deq) # deque([1, 2, 3])
 
 # We can also add elements to the left end using left() method:
 deq.appendleft(0)
 deq.appendleft(-1)
-print(deq) #deque([-1, 0, 1, 2, 3])
+print(deq) # deque([-1, 0, 1, 2, 3])
 
+# Removing elements from right side using pop() method:
+deq.pop() # 3 would be removed
+print(deq) # deque([-1, 0, 1, 2])
+# Now removing elements from the left size using popleft() method:
+deq.popleft() # -1 would be removed
+print(deq) # deque([0, 1, 2])
+
+# We can also extend our deque by adding multiple elements all at once using extend() method:
+deq.extend([6, 7, 8]) # adding this to the right end 
+print(deq) # deque([0, 1, 2, 6, 7, 8])
+
+# Same for left using extendleft()
+deq.extendleft([-3, -2, -1]) # adding to the left end
+print(deq) # deque([-1, -2, -3, 0, 1, 2, 6, 7, 8])
+
+# Performing rotation on deques using rotate() method:
+deque = deque([1, 2, 3, 4, 5, 6])
+deque.rotate(1) # Rotates each element 1 step to the right
+print(deque) # deque([6, 1, 2, 3, 4, 5])
+deque.rotate(-2) # Rotates each element 2 steps to the left
+print(deque) # deque([2, 3, 4, 5, 6, 1])
+
+#Clearing all elements from the deque:
+deq.clear()
+print(deq) # deque([])
+print("-------------------------------------------------------")
 
