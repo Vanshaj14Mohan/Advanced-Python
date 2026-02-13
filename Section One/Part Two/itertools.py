@@ -12,8 +12,9 @@ b = [4, 5, 6]
 c = ["a"]
 d = ["b"]
 pro = product(a, b) # we can add repeat argument to tell the number of time we want to repeat the input iterables:
-print(pro)
+print(pro) # <itertools.product object at 0x0000016CAA380640>
 prod = product(c, d, repeat=2)
 print(prod) # <itertools.product object at 0x000002792C126C80>
 # Convert it to list to see the output:
 print(list(pro)) # [(1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6)]
+print(list(prod)) # [('a', 'b', 'a', 'b')]
