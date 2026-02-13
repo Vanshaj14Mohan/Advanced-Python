@@ -18,3 +18,16 @@ print(prod) # <itertools.product object at 0x000002792C126C80>
 # Convert it to list to see the output:
 print(list(pro)) # [(1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6)]
 print(list(prod)) # [('a', 'b', 'a', 'b')]
+
+# 2: permutations:
+# Mainly used to generate all possible permutations of a given iterable:
+toss = ["Head", "Tail"]
+per = permutations(toss) # Shows all possible outcome of tossing a coin:
+print(list(per)) # [('Head', 'Tail'), ('Tail', 'Head')]
+# Can also specify length of permutation we want to generate:
+data = [1, 2, 3]
+data_per = permutations(data, 2) # 2 represents length of permutation we want to generate:
+print(list(data_per)) #[(1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2)]
+
+
+
