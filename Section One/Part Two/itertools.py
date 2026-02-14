@@ -8,6 +8,7 @@
 from itertools import product, permutations, combinations, accumulate, groupby, count, cycle, repeat # Importing all together
 # 1: product:
 # Used to compute the cartesian product of input iterables:
+print("For Product")
 a = [1, 2, 3]
 b = [4, 5, 6]
 c = ["a"]
@@ -22,6 +23,7 @@ print(list(prod)) # [('a', 'b', 'a', 'b')]
 
 # 2: permutations:
 # Mainly used to generate all possible permutations of a given iterable:
+print("For Permutations")
 toss = ["Head", "Tail"]
 per = permutations(toss) # Shows all possible outcome of tossing a coin:
 print(list(per)) # [('Head', 'Tail'), ('Tail', 'Head')]
