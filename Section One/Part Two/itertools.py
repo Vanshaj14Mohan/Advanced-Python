@@ -4,7 +4,8 @@
 # Example are list, sets, tuple, strings, dictionaries etc.
 # The itertools offers some advanced tools for handling iterators such as product, permutations, combinations, accumulate, groupby and infinite 
 # Iterators like count, cycle and repeat:
-from itertools import product, permutations, combinations, accumulate, groupby, count, cycle, repeat
+
+from itertools import product, permutations, combinations, accumulate, groupby, count, cycle, repeat # Importing all together
 # 1: product:
 # Used to compute the cartesian product of input iterables:
 a = [1, 2, 3]
