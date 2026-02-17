@@ -35,7 +35,11 @@ print(list(data_per)) #[(1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2)]
 print("-----------------------------------------------------")
 
 # 3: Combinations
+# The combination function basically makes all the possible combinations with a specified length
 print("For Combinations")
-
+combo = [1, 2, 3, 4, 5]
+comb = combinations(combo, 2) # [(1, 2), (1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5), (3, 4), (3, 5), (4, 5)]
+# Here 2 represents length of combinations we want to generate:
+print(list(comb))
 
 
