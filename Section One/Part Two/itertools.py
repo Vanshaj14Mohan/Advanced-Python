@@ -42,7 +42,6 @@ comb = combinations(combo, 2) # [(1, 2), (1, 3), (1, 4), (1, 5), (2, 3), (2, 4),
 # Here 2 represents length of combinations we want to generate:
 print(list(comb))
 # Some more operations 
-
 from itertools import combinations_with_replacement
 comb_wr = [1, 2, 3, 4]
 comb_wr = combinations_with_replacement(comb_wr, 2)
