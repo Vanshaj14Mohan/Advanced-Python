@@ -1,4 +1,4 @@
-# So in this advanced Python session we will learn about:
+# So in this advanced Python session we will learn in-depth about:
 
 : Lists
 : Tuples
