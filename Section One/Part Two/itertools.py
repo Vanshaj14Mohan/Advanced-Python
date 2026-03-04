@@ -61,4 +61,8 @@ b = [1, 3, 4, 7]
 b_acc = accumulate(b, func=operator.mul)
 print(b) # 1 3 4 7
 print(list(b_acc)) # 1 3 12 84
-
+# Comparing max value with other sets
+c = [1, 4, 7, 6, 9, 10]
+max_c = accumulate(c, func=max)
+print(c)
+print(list(max_c))
