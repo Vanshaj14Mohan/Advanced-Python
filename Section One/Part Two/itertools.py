@@ -47,3 +47,18 @@ comb_wr = [1, 2, 3, 4]
 comb_wr = combinations_with_replacement(comb_wr, 2)
 print(list(comb_wr)) # [(1, 1), (1, 2), (1, 3), (1, 4), (2, 2), (2, 3), (2, 4), (3, 3), (3, 4), (4, 4)]
 print("-----------------------------------------------------")
+
+# 4: Accumulate
+# The accumulate function makes an iterator that returns the accumulated sum 
+print("For Accumulate")
+a = [1, 2, 3, 4]
+acc = accumulate(a)
+print(a) # 1 2 3 4
+print(list(acc)) # 1 3 6 10, accumulated sum of a
+# we can also multiply the elements:
+import operator
+b = [1, 3, 4, 7]
+b_acc = accumulate(b, func=operator.mul)
+print(b) # 1 3 4 7
+print(list(b_acc)) # 1 3 12 84
+
