@@ -69,5 +69,22 @@ print(list(max_c))
 print("--------------------------------------------------------")
 
 # 5: Groupby
-# It makes an iterator that returns keys and groups from an itterable
+# It makes an iterator that returns keys and groups from an iterable
+print("For Groupby")
+test = [1, 2, 3, 4, 5]
+def check_no(x):
+    return x < 4
+
+group_test = groupby(test, key=check_no)
+for key, value in group_test:
+    print(key, list(value))
+
+#Using Lambda Functions
+case = [1, 2, 3, 4, 5, 6]
+checkTest = groupby(case, key =lambda x: x < 5)
+for key, value in checkTest:
+    print(key, list(value))
+#Lambdas are small one line function that has an input and does something and returns it:
+
+
 
