@@ -66,3 +66,6 @@ c = [1, 4, 7, 6, 9, 10]
 max_c = accumulate(c, func=max)
 print(c)
 print(list(max_c))
+print("--------------------------------------------------------")
+
+# 5: Groupby
