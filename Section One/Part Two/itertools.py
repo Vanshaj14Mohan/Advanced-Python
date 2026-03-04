@@ -69,3 +69,5 @@ print(list(max_c))
 print("--------------------------------------------------------")
 
 # 5: Groupby
+# It makes an iterator that returns keys and groups from an itterable
+
