@@ -100,5 +100,9 @@ for  i in count(10):
     print(i)
     if i == 15:
         break
+# For cycle 
+# a = [1, 2, 3]
+# for i in cycle(a):
+#     print(i)
 
 
