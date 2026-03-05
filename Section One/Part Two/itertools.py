@@ -86,5 +86,11 @@ for key, value in checkTest:
     print(key, list(value))
 #Lambdas are small one line function that has an input and does something and returns it:
 
+# another example
+person = [{"name": "Tim", "age": 25}, {"name": "Adam", "age": 25}, {"name": "Jack", "age": 27}, {"name": "David", "age": 29}]
+
+group_per = groupby(person, key=lambda x: x["age"])
+for key, val in group_per:
+    print(key, list(value) )
 
 
