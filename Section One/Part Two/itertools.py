@@ -91,6 +91,8 @@ person = [{"name": "Tim", "age": 25}, {"name": "Adam", "age": 25}, {"name": "Jac
 
 group_per = groupby(person, key=lambda x: x["age"])
 for key, val in group_per:
-    print(key, list(val) )
+    print(key, list(val))
+
+print("--------------------------------------------------------")
 
 
