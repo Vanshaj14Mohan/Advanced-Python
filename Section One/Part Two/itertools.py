@@ -95,4 +95,10 @@ for key, val in group_per:
 
 print("--------------------------------------------------------")
 
+#6: Count 
+for  i in count(10):
+    print(i)
+    if i == 15:
+        break
+
 
