@@ -108,7 +108,6 @@ a = [1, 2, 3]
 # For repeat
 for i in repeat(2, 4): # Would repeat 2 four times
     print(i)
-
 print("--------------------------------------------------------")
 
 
