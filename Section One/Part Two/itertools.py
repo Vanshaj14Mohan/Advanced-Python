@@ -101,8 +101,14 @@ for  i in count(10):
     if i == 15:
         break
 # For cycle 
-# a = [1, 2, 3]
+a = [1, 2, 3]
 # for i in cycle(a):
 #     print(i)
+
+# For repeat
+for i in repeat(2, 4): # Would repeat 2 four times
+    print(i)
+
+print("--------------------------------------------------------")
 
 
