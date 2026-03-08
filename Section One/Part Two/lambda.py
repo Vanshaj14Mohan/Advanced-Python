@@ -1,1 +1,0 @@
-# In this part we will learn about lambda function and it's usage
