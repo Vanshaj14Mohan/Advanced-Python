@@ -102,7 +102,7 @@ for  i in count(10):
         break
 # For cycle 
 a = [1, 2, 3]
-# for i in cycle(a):
+# for i in cycle(a): this would print an infinite series until we give a stopping point
 #     print(i)
 
 # For repeat
