@@ -1,5 +1,7 @@
 # In this part we will lean about lambda function and it's usage
-# A lambda function is a small one line anonymous function that is derived that is defined without a name
+# A lambda function is a small one line anonymous function that is derived that is defined without a 
+# A lambda function is typically used when we need a simple function that is used only once in your code,
+# or it can be used as an arguments to higher order functions, functions that take functions as arguments
 # Syntax for writing a lambda expression:
 # lambda arguments: expression
 add_no = lambda x: x+ 20
