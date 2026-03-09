@@ -2,3 +2,5 @@
 # A lambda function is a small one line anonymous function that is derived that is defined without a name
 # Syntax for writing a lambda expression:
 # lambda arguments: expression
+add_no = lambda x: x+ 20
+print(add_no(10)) # 30
