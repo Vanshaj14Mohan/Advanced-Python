@@ -5,6 +5,7 @@
 # They are used along built-in functions sorted map, filter, reduce and so on.
 # Syntax for writing a lambda expression:
 # lambda arguments: expression
+
 add_no = lambda x: x+ 20
 print(add_no(10)) # 30, pretty much same as a normal function
 
