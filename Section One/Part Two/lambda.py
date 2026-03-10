@@ -17,3 +17,10 @@ print(addno(10)) # 20
 # Lambda functions can have multiple arguments as well
 mult = lambda x,y: x*y
 print(mult(5, 7)) # 35
+
+point2D = [(1, 2), (15, 1), (5, -1), (10, 4)]
+
+sorted_point = sorted(point2D)
+
+print(point2D)
+print(sorted_point)
