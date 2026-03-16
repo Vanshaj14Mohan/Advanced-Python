@@ -27,3 +27,9 @@ print(sorted_point) # [(1, 2), (5, -1), (10, 4), (15, 1)] sorted the x parameter
 print(sorted_ypoint) # [(5, -1), (15, 1), (1, 2), (10, 4)] sorted the y parameter while keeping x paramater unsorted
 
 # And here we could also create a normal function to sort the values based on the y parameter as well 
+def sort_by_y(x):
+    return x[1]
+
+func_sorted_ypoint = sorted(point2D, key=sort_by_y)
+
+print(func_sorted_ypoint)
