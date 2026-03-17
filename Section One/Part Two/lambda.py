@@ -43,6 +43,5 @@ print(points_sorted) # [(1, 2), (5, -1), (10, 4), (15, 1)]
 
 # Now about map functions:
 # Map functions transforms each element with a function
-# to map a set of function
 
 
