@@ -31,7 +31,6 @@ def sort_by_y(x):
     return x[1]
 
 func_sorted_ypoint = sorted(point2D, key=sort_by_y) # passing the function as key here
-
 print(func_sorted_ypoint) # [(5, -1), (15, 1), (1, 2), (10, 4)] same result as above
 
 # Another example
