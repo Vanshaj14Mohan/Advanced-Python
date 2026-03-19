@@ -40,5 +40,11 @@ print(points_sorted) # [(1, 2), (5, -1), (10, 4), (15, 1)]
 
 # Now about map functions:
 # Map functions transforms each element with a function
+# It has a function as an argument and then a sequence eg a list 
+#Syntax map(function, sequence)
+a = [1, 2, 3, 4, 5]
+b = map(lambda x: x*2, a)
+print(list(b)) # [2, 4, 6, 8, 10]
+
 
 
