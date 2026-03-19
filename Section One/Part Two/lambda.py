@@ -54,6 +54,12 @@ print("-----------------------------------------------")
 # For Filter function
 #Same paramter as map function but filter function must return true or false, 
 #and it returns all the elements for which the function returns to true
+demo = [1, 2, 3, 4, 5]
+fil = filter(lambda x: x%2 == 0, demo)
+print(list(fil)) # [2, 4], only even number
 
+demo_two = [1, 2, 3, 4, 5, 6, 7]
+fil_two = filter(lambda x: x%2!=0, demo_two)
+print(list(fil_two)) # [1, 3, 5, 7], only odd numbers
 
 
