@@ -67,7 +67,7 @@ fil_two = filter(lambda x: x%2!=0, demo_two)
 print(list(fil_two)) # [1, 3, 5, 7], only odd numbers
 
 
-e = [ x for x in demo_two if x%2 == 0]
+e = [ x for x in demo_two if x%2!= 0]
 print(list(e)) #  [1, 3, 5, 7] same output as above
 
 
