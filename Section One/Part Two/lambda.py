@@ -62,10 +62,12 @@ print(list(fil)) # [2, 4], only even number
 d = [ x for x in demo if x%2 == 0]
 print(list(d)) # [2, 4] same output as above
 
-
 demo_two = [1, 2, 3, 4, 5, 6, 7]
 fil_two = filter(lambda x: x%2!=0, demo_two)
 print(list(fil_two)) # [1, 3, 5, 7], only odd numbers
 
+
+e = [ x for x in demo_two if x%2 == 0]
+print(list(e)) #  [1, 3, 5, 7] same output as above
 
 
