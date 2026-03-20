@@ -3,8 +3,7 @@
 # It's typically used when we need a simple function that is used only once in your code,
 # or it can be used as an arguments to higher order functions, functions that take functions as arguments
 # They are used along built-in functions sorted map, filter, reduce and so on.
-# Syntax for writing a lambda expression:
-# lambda arguments: expression
+# Syntax for writing a lambda expression =>  lambda arguments: expression
 
 add_no = lambda x: x+ 20
 print(add_no(10)) # 30, pretty much same as a normal function
