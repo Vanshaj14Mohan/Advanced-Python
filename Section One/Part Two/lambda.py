@@ -37,6 +37,7 @@ print(func_sorted_ypoint) # [(5, -1), (15, 1), (1, 2), (10, 4)] same result as a
 points = [(1, 2), (15, 1), (5, -1), (10, 4)]
 points_sorted = sorted(points, key=lambda x: x[0] + x[1]) 
 print(points_sorted) # [(1, 2), (5, -1), (10, 4), (15, 1)]
+print("---------------------------------------------")
 
 # Now about map functions:
 # Map functions transforms each element with a function
