@@ -66,8 +66,13 @@ demo_two = [1, 2, 3, 4, 5, 6, 7]
 fil_two = filter(lambda x: x%2!=0, demo_two)
 print(list(fil_two)) # [1, 3, 5, 7], only odd numbers
 
-
 e = [ x for x in demo_two if x%2!= 0]
 print(list(e)) #  [1, 3, 5, 7] same output as above
+
+# Reduce function, It also takes a function and sequence and repeatedly applies the function to the element and returns a single value
+from functools import reduce
+red = [1, 2, 3, 4, 5, 6, 7]
+prod_red = reduce(lambda x,y: x*y, red)
+print(prod_red) #5040
 
 
