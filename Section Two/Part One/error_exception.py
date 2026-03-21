@@ -1,0 +1,1 @@
+# In this part we'll look into the difference between and error and an exception
