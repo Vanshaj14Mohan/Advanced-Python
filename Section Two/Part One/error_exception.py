@@ -4,5 +4,6 @@
 
 # Syntax error: A syntax error makes the parser detects a syntactically incorrect statement
 # There are many ways to raise a syntax error in python for eg:
+
 # a = 10 print(a) this would raise an error as there is no new line between two statements
 # And also if we forget to close a parenthesis or a quotation mark it would raise a syntax error as well
