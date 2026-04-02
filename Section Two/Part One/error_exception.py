@@ -3,4 +3,5 @@
 # And also how we can define our own exceptions in Python
 
 # Syntax error: A syntax error makes the parser detects a syntactically incorrect statement
+# There are many ways to raise a syntax error in python for eg:
 # a = 10 print(a) this would raise an error
