@@ -6,7 +6,7 @@ print(type(case1)) # Output => <class 'str'>
 
 #Try not to use quotes inside a quote it will give error but can be fixed using escape sequence
 case = "This\'s is a strings part"
-# or 
+# or we can do
 demo_case = "This's a strings part"
 print(demo_case) # Output => This's a string part
 print(case) # Output => This's a string part
