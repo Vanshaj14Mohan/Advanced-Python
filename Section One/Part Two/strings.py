@@ -1,5 +1,6 @@
 # A string is an ordered and immutable collection data type used for text representation
 # Created with either '' or "" quotes
+
 case1 = "Hello Guys"
 print(case1)
 print(type(case1)) # Output => <class 'str'>
