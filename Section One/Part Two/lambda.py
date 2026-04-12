@@ -52,7 +52,7 @@ c = [x*2 for x in a]
 print(c) # [2, 4, 6, 8, 10], same output as above
 print("-----------------------------------------------")
 
-# For Filter function
+# For Filter function here
 #Same paramter as map function but filter function must return true or false, 
 #and it returns all the elements for which the function returns to true
 demo = [1, 2, 3, 4, 5]
