@@ -74,7 +74,7 @@ print(list(e)) #  [1, 3, 5, 7] same output as above
 from functools import reduce
 red = [1, 2, 3, 4, 5, 6, 7]
 prod_red = reduce(lambda x,y: x*y, red)
-print(prod_red) #5040
+print(prod_red) #5040 as output
 print("-----------------------------------------------")
 
 
