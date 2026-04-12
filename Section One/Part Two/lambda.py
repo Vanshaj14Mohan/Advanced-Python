@@ -52,7 +52,7 @@ c = [x*2 for x in a]
 print(c) # [2, 4, 6, 8, 10], same output as above
 print("-----------------------------------------------")
 
-# For Filter function here
+# For Filter function
 #Same paramter as map function but filter function must return true or false, 
 #and it returns all the elements for which the function returns to true
 demo = [1, 2, 3, 4, 5]
@@ -74,7 +74,7 @@ print(list(e)) #  [1, 3, 5, 7] same output as above
 from functools import reduce
 red = [1, 2, 3, 4, 5, 6, 7]
 prod_red = reduce(lambda x,y: x*y, red)
-print(prod_red) #5040
+print(prod_red) #5040 
 print("-----------------------------------------------")
 
 
