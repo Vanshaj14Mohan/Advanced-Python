@@ -2,7 +2,6 @@
 # A lambda function is a small one line anonymous function that is derived that is defined without a 
 # It's typically used when we need a simple function that is used only once in your code,
 # or it can be used as an arguments to higher order functions, functions that take functions as arguments
-
 # They are used along built-in functions sorted map, filter, reduce and so on.
 # Syntax for writing a lambda expression =>  lambda arguments: expression
 
