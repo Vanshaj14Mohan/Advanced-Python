@@ -7,7 +7,6 @@
 
 add_no = lambda x: x+ 20
 print(add_no(10)) # 30, pretty much same as a normal function
-
 def addno(x):
     return x + 10
 
