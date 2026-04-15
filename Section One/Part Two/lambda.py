@@ -20,7 +20,6 @@ print(mult(5, 7)) # 35
 point2D = [(1, 2), (15, 1), (5, -1), (10, 4)]
 sorted_point = sorted(point2D) # Would sort the point2D from x paramter 
 sorted_ypoint = sorted(point2D, key=lambda x: x[1])
-
 print(point2D)
 print(sorted_point) # [(1, 2), (5, -1), (10, 4), (15, 1)] sorted the x parameter while keeping y paramater unsorted
 print(sorted_ypoint) # [(5, -1), (15, 1), (1, 2), (10, 4)] sorted the y parameter while keeping x paramater unsorted
