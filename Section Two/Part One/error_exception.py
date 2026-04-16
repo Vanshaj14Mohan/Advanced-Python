@@ -7,3 +7,6 @@
 
 # a = 10 print(a) this would raise an error as there is no new line between two statements
 # And also if we forget to close a parenthesis or a quotation mark it would raise a syntax error as well
+a = 5 + "10"
+#print(a) # will give a type error
+# Some more common build-in exceptions 
