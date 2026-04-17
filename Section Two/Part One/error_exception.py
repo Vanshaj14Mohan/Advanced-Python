@@ -21,7 +21,7 @@
 # Value error:
 #If a function or operation receives an argument that has the right type but an inappropriate value
 li = [1, 2, 3, 4]
-li.remove(5) # x not in list, value error
+#li.remove(5) # x not in list, value error
 
 # Index error: 
 a = [1, 2, 3, 4]
@@ -30,3 +30,12 @@ print(a[3]) # This is ok
 
 dict = {"name": "John"}
 #dict["age"] # Key error as key is not present in the dictionary here
+
+# Raising an exception: Can do it using raise keyword
+# x = -2
+# if x < 0:
+#     raise Exception("X should be positive")
+
+# Can use assert statement to raise an excpetion if a condition is not met
+y = -5
+assert (y > 0), "Y is not positive"  # Will raise an assertion error here as condition not met
