@@ -9,6 +9,7 @@
 # And also if we forget to close a parenthesis or a quotation mark it would raise a syntax error as well
 #a = 5 + "10"
 #print(a) # will give a type error
+
 # Some more common build-in exceptions 
 # Module not found error if we write a module that doesn't exists. eg = > import abcd
 # Namer error
