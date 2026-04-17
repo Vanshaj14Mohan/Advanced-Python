@@ -24,3 +24,6 @@ li = [1, 2, 3, 4]
 li.remove(5) # x not in list, value error
 
 # Index error: 
+a = [1, 2, 3, 4]
+print(a[3]) # This is ok
+print(a[4]) # Index out of range error  
