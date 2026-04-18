@@ -19,9 +19,9 @@
 # f = open("abcd.txt")
 
 # Value error:
-#If a function or operation receives an argument that has the right type but an inappropriate value
+# If a function or operation receives an argument that has the right type but an inappropriate value
 li = [1, 2, 3, 4]
-#li.remove(5) # x not in list, value error
+# li.remove(5) # x not in list, value error
 
 # Index error: 
 a = [1, 2, 3, 4]
