@@ -38,4 +38,4 @@ dict = {"name": "John"}
 
 # Can use assert statement to raise an excpetion if a condition is not met
 y = -5
-assert (y > 0), "Y is not positive" # Will raise an assertion error here as condition not met
+assert (y > 0), "Y is not positive" # Will raise an assertion error here as condition not met 
