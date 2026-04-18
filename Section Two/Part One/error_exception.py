@@ -26,10 +26,10 @@ li = [1, 2, 3, 4]
 # Index error: 
 a = [1, 2, 3, 4]
 print(a[3]) # This is ok
-#print(a[4]) # Index out of range error  
+# print(a[4]) # Index out of range error  
 
 dict = {"name": "John"}
-#dict["age"] # Key error as key is not present in the dictionary here
+# dict["age"] # Key error as key is not present in the dictionary here
 
 # Raising an exception: Can do it using raise keyword
 # x = -2
