@@ -28,6 +28,7 @@ a = [1, 2, 3, 4]
 print(a[3]) # This is ok
 # print(a[4]) # Index out of range error  
 
+# Key error: 
 dict = {"name": "John"}
 # dict["age"] # Key error as key is not present in the dictionary here
 
