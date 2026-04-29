@@ -52,3 +52,11 @@ try:
     x = 10/0
 except ZeroDivisionError:
     print("Divided by zero")
+
+try:
+    y = 10/2
+    a = y + "10"
+except ZeroDivisionError as e:
+    print(e)
+except TypeError as e:
+    print(e)
