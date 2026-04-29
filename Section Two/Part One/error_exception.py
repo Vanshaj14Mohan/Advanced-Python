@@ -42,20 +42,26 @@ y = 5
 assert (y > 0), "Y is not positive" # Will raise an assertion error here is y < 0 
 
 # Using try and except
+# Case 1
+print("Case 1")
 try:
     a = 5/0
 except Exception as e:
     print(e) # division by zero
 
 # But for good practice we define the error
+# Case 2
+print("Case 2")
 try:
     x = 10/0
 except ZeroDivisionError:
     print("Divided by zero")
 
+# Case 3
+print("Case 3")
 try:
     y = 10/2
-    a = y + "10"
+    a = y + 2
 except ZeroDivisionError as e:
     print(e)
 except TypeError as e:
