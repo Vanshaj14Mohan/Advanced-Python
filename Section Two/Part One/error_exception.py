@@ -38,5 +38,11 @@ dict = {"name": "John"}
 #     raise Exception("X should be positive")
 
 # Can use assert statement to raise an excpetion if a condition is not met
-y = -5
-assert (y > 0), "Y is not positive" # Will raise an assertion error here as condition not met 
+y = 5
+assert (y > 0), "Y is not positive" # Will raise an assertion error here is y < 0 
+
+# Using try and except
+try:
+    5/0
+except:
+    print("Divided by 0")
