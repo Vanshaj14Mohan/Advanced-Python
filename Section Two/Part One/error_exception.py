@@ -60,3 +60,5 @@ except ZeroDivisionError as e:
     print(e)
 except TypeError as e:
     print(e)
+else: # If no excpetion occured then
+    print("The end")
