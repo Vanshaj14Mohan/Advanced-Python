@@ -43,6 +43,12 @@ assert (y > 0), "Y is not positive" # Will raise an assertion error here is y < 
 
 # Using try and except
 try:
-    5/0
-except:
-    print("Divided by 0")
+    a = 5/0
+except Exception as e:
+    print(e) # division by zero
+
+# But for good practice we define the error
+try:
+    x = 10/0
+except ZeroDivisionError:
+    print("Divided by zero")
