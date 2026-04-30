@@ -49,6 +49,7 @@ try:
 except Exception as e:
     print(e) # division by zero
 
+
 # But for good practice we define the error
 # Case 2
 print("Case 2")
@@ -70,3 +71,5 @@ else: # If no excpetion occured then
     print("The end")
 finally: # runs always no matter if there is an exception or not
     print("Final Part")
+
+# Now creating our own exceptions 
