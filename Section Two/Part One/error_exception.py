@@ -76,12 +76,22 @@ finally: # runs always no matter if there is an exception or not
 class HighValueError(Exception):
     pass
 
+class SmallValueError(Exception):
+    def __init__(self, message, value):
+        self.message = message
+        self.value = value
+    
+
 def test_val(x):
     if x>100:
         raise HighValueError('Value is too High')
+    if x < 10:
+        raise SmallValueError("Value is too small", x)
     
 try:
     test_val(200)
 except HighValueError as e:
     print(e)
+except SmallValueError as e:
+    print(e.message, e.value)
     
