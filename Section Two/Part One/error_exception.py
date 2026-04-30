@@ -80,4 +80,8 @@ def test_val(x):
     if x>100:
         raise HighValueError('Value is too High')
     
-test_val(200)
+try:
+    test_val(200)
+except HighValueError as e:
+    print(e)
+    
