@@ -68,3 +68,5 @@ except TypeError as e:
     print(e)
 else: # If no excpetion occured then
     print("The end")
+finally: # runs always no matter if there is an exception or not
+    print("Final Part")
