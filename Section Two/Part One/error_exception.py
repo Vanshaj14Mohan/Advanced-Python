@@ -73,3 +73,11 @@ finally: # runs always no matter if there is an exception or not
     print("Final Part")
 
 # Now creating our own exceptions 
+class HighValueError(Exception):
+    pass
+
+def test_val(x):
+    if x>100:
+        raise HighValueError('Value is too High')
+    
+test_val(200)
