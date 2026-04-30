@@ -81,17 +81,16 @@ class SmallValueError(Exception):
         self.message = message
         self.value = value
     
-
 def test_val(x):
     if x>100:
-        raise HighValueError('Value is too High')
+        raise HighValueError('Value is too High') 
     if x < 10:
         raise SmallValueError("Value is too small", x)
     
 try:
     test_val(200)
-except HighValueError as e:
+except HighValueError as e: # For High Value
     print(e)
-except SmallValueError as e:
+except SmallValueError as e: # For Low Value
     print(e.message, e.value)
     
