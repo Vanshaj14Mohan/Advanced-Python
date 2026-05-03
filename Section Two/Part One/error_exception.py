@@ -49,6 +49,8 @@ try:
 except Exception as e:
     print(e) # division by zero
 
+print("------------------------------------------------")
+
 
 # But for good practice we define the error
 # Case 2
