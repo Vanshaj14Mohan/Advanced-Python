@@ -60,6 +60,8 @@ try:
 except ZeroDivisionError:
     print("Divided by zero")
 
+print("------------------------------------------------")
+
 # Case 3
 print("Case 3")
 try:
@@ -73,6 +75,8 @@ else: # If no excpetion occured then
     print("The end")
 finally: # runs always no matter if there is an exception or not
     print("Final Part")
+
+print("------------------------------------------------")
 
 # Now creating our own exceptions 
 class HighValueError(Exception):
