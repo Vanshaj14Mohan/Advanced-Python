@@ -99,4 +99,6 @@ except HighValueError as e: # For High Value
     print(e)
 except SmallValueError as e: # For Low Value
     print(e.message, e.value)
+
+print("------------------------------------------------")
     
