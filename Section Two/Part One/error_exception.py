@@ -14,7 +14,6 @@
 # Namer error
 # x = 5
 # y = z, here z is not defined
-
 # File not found error; => If we enter a file then doesn't exist then we get this error
 # f = open("abcd.txt")
 
