@@ -17,7 +17,6 @@
 
 # File not found error; => If we enter a file then doesn't exist then we get this error
 # f = open("abcd.txt")
-
 # Value error:
 # If a function or operation receives an argument that has the right type but an inappropriate value
 li = [1, 2, 3, 4]
