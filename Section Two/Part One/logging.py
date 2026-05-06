@@ -1,0 +1,1 @@
+# In this part we'll learn about logging in python and how to use it to log messages in our code
