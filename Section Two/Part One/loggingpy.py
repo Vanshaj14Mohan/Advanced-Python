@@ -5,7 +5,7 @@
 
 import logging
 # After importing we can log into five different levels
-# 1: debug, 2 info, 3 warning, 4 error, 5 critical
+# 1: debug, 2: info, 3: warning, 4: error, 5: critical
 logging.debug("A debug message")
 logging.info("An info message")
 logging.warning("A warning message")
