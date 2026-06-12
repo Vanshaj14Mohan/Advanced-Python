@@ -18,7 +18,8 @@ print("-------------------------------------------")
 # Can change the logging level to debug to log all messages.
 
 # Now to log into a different module can create a logger object and use it to log messages.
-#logger = logging.getLogger(__name__) # __name__ a special variable that holds the name of current module.
+# logger = logging.getLogger(__name__) # __name__ a special variable that holds the name of current module.
+
 import log
 
 
