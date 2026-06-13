@@ -21,5 +21,6 @@ print("-------------------------------------------")
 # logger = logging.getLogger(__name__) # __name__ a special variable that holds the name of current module.
 
 import log
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S')
 
 
