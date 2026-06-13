@@ -11,7 +11,7 @@
 
 # Some more common build-in exceptions 
 # Module not found error if we write a module that doesn't exists. eg = > import abcd
-# Namer error
+# Namer error: 
 # x = 5
 # y = z, here z is not defined
 
