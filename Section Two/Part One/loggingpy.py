@@ -13,7 +13,6 @@ logging.warning("A warning message")
 logging.error("An error message")
 logging.critical("A critical message")
 
-
 # Only warning, error and critical will be logged by default as default logging level is warning.
 # Can change the logging level to debug to log all messages.
 
