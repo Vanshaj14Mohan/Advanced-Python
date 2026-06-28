@@ -3,3 +3,11 @@ import logging
 logger = logging.getLogger(__name__) # __name__ a special variable that holds the name of current module.
 logger.propagate = False # won't propagate to base logger
 logger.info("Info from logger object")
+
+# Create handler
+stream_handler = logging.StreamHandler()
+file_handler = logging.FileHandler("file.log")
+
+# Level and format for each handler
+stream_handler.setLevel(logging.WARNING)
+file_handler.setLevel(logging.ERROR)
