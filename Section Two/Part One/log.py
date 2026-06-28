@@ -13,5 +13,10 @@ stream_handler.setLevel(logging.WARNING)
 file_handler.setLevel(logging.ERROR)
 
 formatter = logging.Formatter('%(name)s - %(levelname)s - %(message)s') # name, level and message of logger
+stream_handler.setFormatter(formatter)
+file_handler.setFormatter(formatter)
 
+logger.addHandler(stream_handler)
+logger.addHandler(file_handler)
 
+logger.warning("A normal warning")
