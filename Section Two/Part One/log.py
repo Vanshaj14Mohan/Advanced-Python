@@ -4,6 +4,10 @@ logger = logging.getLogger(__name__) # __name__ a special variable that holds th
 logger.propagate = False # won't propagate to base logger
 logger.info("Info from logger object")
 
+import logging.config
+
+logging.config.fileConfig("logging.config")
+
 # Create handler
 stream_handler = logging.StreamHandler()
 file_handler = logging.FileHandler("file.log")
