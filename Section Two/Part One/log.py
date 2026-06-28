@@ -20,3 +20,4 @@ logger.addHandler(stream_handler)
 logger.addHandler(file_handler)
 
 logger.warning("A normal warning")
+logger.error("A normal error")
