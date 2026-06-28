@@ -11,3 +11,7 @@ file_handler = logging.FileHandler("file.log")
 # Level and format for each handler
 stream_handler.setLevel(logging.WARNING)
 file_handler.setLevel(logging.ERROR)
+
+formatter = logging.Formatter('%(name)s - %(levelname)s - %(message)s') # name, level and message of logger
+
+
