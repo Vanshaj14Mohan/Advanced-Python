@@ -5,7 +5,6 @@ logger.propagate = False # won't propagate to base logger
 logger.info("Info from logger object")
 
 import logging.config
-
 logging.config.fileConfig("logging.config")
 
 # Create handler
