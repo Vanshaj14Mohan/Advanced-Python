@@ -2,7 +2,6 @@
 # Logging is just a way to keep track of events that happen when some software runs.
 # In this part we'll look into different logging levels, different configurations options
 # How to log in different modules, how to use different log handlers, capturing stack traces and using rotating file handlers.
-
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S')
 # After importing we can log into five different levels
@@ -19,7 +18,6 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(leve
 
 # Now to log into a different module can create a logger object and use it to log messages.
 import log
-
 # Lock Handlers, Handler objects are responsible for dispatching the appropriate lock messages to the handlers specific destinations.
 
 
