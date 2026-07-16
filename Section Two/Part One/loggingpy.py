@@ -5,7 +5,6 @@
 
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S')
-
 # After importing we can log into five different levels
 # 1: debug, 2: info, 3: warning, 4: error, 5: critical
 # An example for each levels:
@@ -19,6 +18,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(leve
 # Can change the logging level to debug to log all messages.
 
 # Now to log into a different module can create a logger object and use it to log messages.
+
 import log
 # Lock Handlers, Handler objects are responsible for dispatching the appropriate lock messages to the handlers specific destinations.
 
