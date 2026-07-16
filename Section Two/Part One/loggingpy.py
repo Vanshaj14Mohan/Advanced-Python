@@ -5,6 +5,7 @@
 
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S')
+
 # After importing we can log into five different levels
 # 1: debug, 2: info, 3: warning, 4: error, 5: critical
 # An example for each levels:
