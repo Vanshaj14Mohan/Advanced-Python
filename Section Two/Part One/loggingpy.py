@@ -20,7 +20,10 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(leve
 
 # Now to log into a different module can create a logger object and use it to log messages.
 import log
+import logging.config
+logging.config.fileConfig("logging.config")
 # Lock Handlers, Handler objects are responsible for dispatching the appropriate lock messages to the handlers specific destinations.
-
+logger = logging.getLogger("simpleExample")
+logger.debug("A debug message")
 
 
